@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Data Showcase</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1 data-testid="page-title">Personal Data</h1>
+      <img
+        id="slack-display-image"
+        src="https://ca.slack-edge.com/T05FFAA91JP-U05RW5MSH1P-27d788d04d0f-512"
+        alt="Okiroro"
+        data-testid="slackDisplayImage"
+      />
+
+      <p id="slack-username" data-testid="slackUserName">Okiroro</p>
+
+      <p id="current-day" data-testid="currentDayOfTheWeek">Loading...</p>
+
+      <p id="current-utc-time" data-testid="currentUTCTime">Loading...</p>
+
+      <p id="my-track" data-testid="myTrack"><label>Track: </label>Frontend</p>
+
+      <!-- GitHub URL Link -->
+      <p id="github-link" data-testid="githubURL">
+        <a
+          href="https://github.com/your-username/your-repository"
+          target="_blank"
+          >View on GitHub</a
+        >
+      </p>
+    </div>
+
+    <!-- JS Script -->
+    <script src="./main.js"></script>
+  </body>
+</html>
